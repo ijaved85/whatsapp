@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000112">
+  <link rel="icon" type="image/x-icon" href="./favicon.png">
+  <title>Send Whatsapp Messages | Directly.</title>
+  <meta name="description" content="Send Message through your Whatsapp directly without saving the number just in 3 steps.
+  Step 1-Select your country.
+  Step 2-Then enter your Message & Phone Number.
+  Step 3-Hit the send button.">
+  <meta name=”robots” content="index, follow">
+  <link rel="manifest" href="./manifest.json">
+  <!--Stylesheet-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--google verification -->
+  <meta name="google-site-verification" content="3jb5dr9_PjPOUIfkOLT64VFkYGRMyscBJLFFzLQyrso" />
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js">
+  </script>
+  <sscript src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+  </script>
+</head>
+
+<body>
+  <div class="bubble">
+    Send desired Message through your Whatsapp directly without saving the number.
+  </div>
+  <div class="bubble">
+    This below message will be send,
+    you can change this here also..
+  </div>
+  <div class="bubble">
+    Select your country code <i class="fa">&#xf107;</i>
+  </div>
+  <div class="bubble">
+    Then enter your Phone Number and hit the send button
+  </div>
+
+  <!-- Enter your text Message inside the textarea -->
+  <textarea id="userMessage" class="bubble" placeholder="Enter your text..." cols="10" style="color:#fff;"></textarea>
+  <div class="bubble" id="install">
+    Install app in mobile.
+  </div>
+  <!-- Wrong Message -->
+  <div class="bubble" id="wrongDiv">
+    <span id="wrong"></span>
+  </div>
+
+  <!-- Sending Text Area-->
+  <div id="box">
+    <select name="code" id="code">
+    </select>
+
+    <input
+    type="tel"
+    id="whNumber"
+    min="1000000000"
+    maxlength="10"
+    placeholder="Type Number here...">
+
+    <div id="send" onclick="check()">
+      <i class="send-button"></i>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

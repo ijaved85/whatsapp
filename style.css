@@ -1,0 +1,103 @@
+body {
+  font-family: Sans-Serif;
+  background-image: url(./wp-background.jpg);
+  background-size: cover;
+}
+.bubble {
+  display: block;
+  max-width: 70%;
+  margin: 8px;
+  margin-left: 1px;
+  padding: 10px;
+  color: #fff;
+  height: auto;
+  background-color: #273443;
+  border-color: transparent;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+}
+#userMessage {
+  display: block;
+  margin: auto;
+  margin-right: 2px;
+  max-width: %;
+  width: 75% !important;
+  background-color: #128c7e;
+  border: 0 solid #128C7E;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 10px;
+  overflow:scroll;
+            
+}
+#userMessage::placeholder {
+  color: #fff;
+}
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4.5px;
+  position: absolute;
+  bottom: 0;
+}
+#code,#whNumber {
+  color: #fff;
+  background-color: #273443;
+  border: 1px solid #273443;
+}
+#code {
+  padding: 2px;
+  width: 37%;
+  height: 50px;
+  text-align: center;
+  margin-left: 1px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#whNumber {
+  padding: 10px;
+  width: 50%;
+  height: 28px;
+  font-size: 16px;
+  margin-right: 3px;
+  caret-color: #15ab53;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#wrongDiv {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+#send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 27px;
+  height: 27px;
+  padding: 10px;
+  margin-right: 8px;
+  background-color: #128c62;
+  transition: 0.1s ease-out;
+  border: 1px solid #128c62;
+  border-radius: 55px;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+.send-button {
+  height: 27px;
+  padding-left: 0;
+  text-align: center;
+  content: url("paper-plane-solid.svg");
+  color: #fff;
+}
+
+#userMessage::-webkit-scrollbar-thumb {
+  background: transparent;
+}

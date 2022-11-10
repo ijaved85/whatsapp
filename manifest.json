@@ -1,0 +1,19 @@
+{
+  "short_name": "Whatsapp Me",
+  "name": "Whatsapp Me",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://ijaved85.github.io/whatsapp/",
+  "display": "standalone",
+  "theme_color": "#000112"
+}
