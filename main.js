@@ -70,7 +70,7 @@ const checkDevice = ()=> {
   if (window.matchMedia("(max-width: 767px)").matches) {
     loadCountry();
   } else {
-    window.location.href = "./WhatsappWeb.html";
+    window.location.href = "./WhatsAppweb.html";
   }
 }
 checkDevice();
