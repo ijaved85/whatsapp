@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../favicon.png">
+    <title>Dr Abdun Nur </title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="Whatsapp.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Whatsapp</h1>
+      <form>
+        <div class="row">
+          <div class="column Patiencefrom">
+            <label for="patfrom">Patient From:</label>
+            <br>
+            <div class="dooption">
+              <div class="in1">
+                <input type="radio" id="mus" name="patfr" value="Diary" onclick="PatienceM()" checked>&emsp;Murshidabad
+              </div>
+              <div class="in2">
+                <input type="radio" id="kol" name="patfr" value="Kolkata" onclick="PatienceK()">&emsp;Kolkata
+              </div>
+            </div>
+          </div>
+          <div class="column Patiencefrom">
+            <label for="patfrom">Patient Info :</label>
+            <br>
+            <div class="dooption">
+              <div class="dnum">
+                <lable id="dn">D-</lable>
+                <input type="number" id="dnum" placeholder="Diary Number">
+              </div>
+              <div class="pnum">
+                <label id="sl">/</label>&nbsp; <input type="number" id="pnum" placeholder="Patient Number">
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <label for="phnum">Phone Number :</label>
+            <br>
+            <label id="phnumb">+91</label>
+            <input type="tel" id="phnumber" placeholder="Phone Number">
+          </div>
+          <div class="column Patiencefrom">
+            <label for="patfrom">Bank :</label>
+            <br>
+            <div class="dooption">
+              <div class="in1">
+                <input type="radio" id="pnb" name="bnk" value="Diary" onclick="Pnb()" checked>&emsp;PNB
+              </div>
+              <div class="in2">
+                <input type="radio" name="bnk" value="Kolkata" onclick="Axis()">&emsp;Axis
+              </div>
+              <div class="in3">
+                <input type="radio" name="bnk" value="Message" onclick="Message()">&emsp;Text
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column" id="Message">
+            <label for="text">Message :</label>
+            <textarea id="texting" placeholder="Enter Your Message" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="but" onClick="document.location.href=Sent();"> Send </div>
+      </form>
+    </div>
+    <script type="text/javascript" src="Whatsapp.js"></script>
+  </body>
+</html>
