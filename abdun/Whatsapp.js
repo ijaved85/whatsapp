@@ -1,6 +1,6 @@
 let dnumber, pnumber, phn, mess, finaltext, enc, phto, link, note;
 let dtype = "D - ";
-let bank = "Dr.Abdun Nur\nPunjab National Bank\nBranch Choki\nA/C No. 1250010101531\nIFSC Code : PUNB0125020\n \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t OR \n Pay using upi - 8346051322";
+let bank = "Dr.Abdun Nur\nPunjab National Bank\nBranch Choki\nA/C No. 1250010101531\nIFSC Code : PUNB0125020\n \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t OR \n Pay using Upi Number - 8346051322\n Upi Id - javediqbal8572@okaxis";
 note = " \n_***KINDLY SEND THE SCREENSORT OF THE PAYMENT. SO THAT I CAN SEND YOUR MEDICINE NAME.***_";
 
 function PatienceM() {
@@ -17,7 +17,7 @@ function Message() {
 }
 function Pnb() {
   document.getElementById("Message").style.display = "none";
-  bank = "Dr.Abdun Nur\nPunjab National Bank\nBranch Choki\nA/C No. 1250010101531\nIFSC Code : PUNB0125020\n \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t OR \n Pay using upi - 8346051322";
+  bank = "Dr.Abdun Nur\nPunjab National Bank\nBranch Choki\nA/C No. 1250010101531\nIFSC Code : PUNB0125020\n \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t OR \n Pay using upi Number - 8346051322\n Upi Id - javediqbal8572@okaxis.";
 }
 function Axis() {
   document.getElementById("Message").style.display = "none";
