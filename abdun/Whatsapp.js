@@ -8,7 +8,7 @@ function PatienceM() {
   dtype = "D - ";
 }
 function PatienceK() {
-  া
+  
   document.getElementById("dn").innerHTML = "K-";
   dtype = "K - ";
 }
