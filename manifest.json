@@ -1,9 +1,9 @@
 {
-  "short_name": "Whatsapp Me",
-  "name": "Whatsapp Me",
+  "short_name": "Watsup Me",
+  "name": "Watsau Me",
   "icons": [
     {
-      "src": "ficon.png",
+      "src": "favicon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
